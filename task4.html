@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="task11.css">
+	<title>log in</title>
+</head>
+<body>
+	<header>
+		<img src="images/left.png" class="img1">
+		<span class="login">登录</span>
+	</header>
+	
+	<div class="middle">
+		<form>
+			<input type="number" oninput="if(value.length>11)value=value.slice(0,11)"
+			 name="phonenumber" placeholder="请输入手机号" class="phone">
+			<input type="password" name="password" placeholder="请输入密码" class="lock">
+			<button type="button" >登 录</button>
+		</form>
+		<div class="footer1">
+			<p class="footer1-1">立即注册</p>
+		    <p class="footer1-2">忘记密码？</p>
+		</div>
+	</div>
+	<footer class="ft1">
+		<span class="line"></span>
+		<span>第三方账号登录</span>
+		<span class="line"></span>
+	</footer>
+	<footer class="ft2">
+		<div>
+			<img src="images/weichat.png">
+			<p>微信登录</p>
+		</div>
+		<div>
+			<img src="images/sina.png">
+			<p>微信登录</p>
+		</div>
+		<div>
+			<img src="images/QQ.png">
+			<p>微信登录</p>
+		</div>
+	</footer>
+</body>
+</html>

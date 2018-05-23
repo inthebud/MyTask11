@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+  background-color: #eff0f4;
+}
+
+header {
+  background-color: #1ba4ee;
+  position: fixed;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.img1 {
+  height: 3rem;
+  width: 3rem;
+  vertical-align: middle;
+}
+
+.login {
+  display: inline-block;
+  color: white;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+
+p.signin {
+  font-size: 1.6rem;
+  margin: 0;
+  position: fixed;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+div.middle {
+  position: fixed;
+  height: 25rem;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  padding-top: 5.25rem;
+}
+
+input.phone {
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 1.25rem 0 1.25rem 7.5rem;
+  background-image: url(images/03.png);
+  background-size: 5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-width: 0;
+  outline: none;
+}
+
+input.lock {
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 1.25rem 0 1.25rem 7.5rem;
+  background-image: url(images/04.png);
+  background-size: 5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-width: 0;
+  margin-top: 1rem;
+  outline: none;
+}
+
+button {
+  background-color: #1ba4ee;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  width: 99%;
+  padding: 1.25rem 0;
+  border-radius: 5px;
+  border-width: 0;
+  margin: 1rem 0.5%;
+  outline: none;
+}
+
+.footer1 {
+  color: #999999;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  width: 99%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer1 p {
+  margin: 0;
+}
+
+.ft1 {
+  margin-top: 30rem;
+  text-align: center;
+  color: #999999;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  vertical-align: middle;
+}
+.ft1 span {
+  display: inline-block;
+}
+.ft1 .line {
+  display: inline-block;
+  width: 8rem;
+  height: 1px;
+  background-color: #999999;
+  margin: 3px 0;
+}
+
+.ft2 {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.ft2 img {
+  width: 4rem;
+  height: 4rem;
+}
+.ft2 div {
+  margin: 0 2rem;
+}
+
+/*# sourceMappingURL=task11.css.map */
