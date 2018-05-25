@@ -1,10 +1,16 @@
 html{font-size: 62.5%; background-color: #eff0f4;}
+body{
+	max-width: 780px;
+	min-width: 320px;
+	margin:auto;
+}
 $background-color:#1ba4ee;
 header{background-color: $background-color;
 	position: fixed;
 	height: 4.5rem;
 	line-height: 4.5rem;
 	top: 0;left: 0;right: 0;
+	@extend body;
 }
 .img1{
 	height:3rem;
@@ -22,8 +28,16 @@ header{background-color: $background-color;
 p.signin
 	{font-size: 1.6rem;margin: 0;
 	position: fixed;top: 1.6rem;right:1.6rem;}
-div.middle{position: fixed;height: 25rem;top: 0rem;left: 0;right: 0;
-			padding-top: 5.25rem;}
+div.middle{
+	position: fixed;
+	height: 25rem;
+	top: 0rem;
+	left: 0;
+	right: 0;
+	padding-top: 5.25rem;
+	@extend body;
+	overflow: hidden;
+}
 input.phone
 	{
 	background-color: #ffffff;font-size: 1.6rem;width: 100%;

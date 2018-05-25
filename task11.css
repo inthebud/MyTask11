@@ -1,7 +1,11 @@
 html {
   font-size: 62.5%;
-  background-color: #eff0f4;
-}
+  background-color: #eff0f4; }
+
+body, header, div.middle {
+  max-width: 780px;
+  min-width: 320px;
+  margin: auto; }
 
 header {
   background-color: #1ba4ee;
@@ -10,30 +14,26 @@ header {
   line-height: 4.5rem;
   top: 0;
   left: 0;
-  right: 0;
-}
+  right: 0; }
 
 .img1 {
   height: 3rem;
   width: 3rem;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .login {
   display: inline-block;
   color: white;
   font-size: 1.6rem;
   margin: 0 auto;
-  padding-left: 1rem;
-}
+  padding-left: 1rem; }
 
 p.signin {
   font-size: 1.6rem;
   margin: 0;
   position: fixed;
   top: 1.6rem;
-  right: 1.6rem;
-}
+  right: 1.6rem; }
 
 div.middle {
   position: fixed;
@@ -42,7 +42,7 @@ div.middle {
   left: 0;
   right: 0;
   padding-top: 5.25rem;
-}
+  overflow: hidden; }
 
 input.phone {
   background-color: #ffffff;
@@ -54,8 +54,7 @@ input.phone {
   background-repeat: no-repeat;
   background-position: left center;
   border-width: 0;
-  outline: none;
-}
+  outline: none; }
 
 input.lock {
   background-color: #ffffff;
@@ -68,8 +67,7 @@ input.lock {
   background-position: left center;
   border-width: 0;
   margin-top: 1rem;
-  outline: none;
-}
+  outline: none; }
 
 button {
   background-color: #1ba4ee;
@@ -80,8 +78,7 @@ button {
   border-radius: 5px;
   border-width: 0;
   margin: 1rem 0.5%;
-  outline: none;
-}
+  outline: none; }
 
 .footer1 {
   color: #999999;
@@ -90,11 +87,9 @@ button {
   width: 99%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
-}
-.footer1 p {
-  margin: 0;
-}
+  justify-content: space-between; }
+  .footer1 p {
+    margin: 0; }
 
 .ft1 {
   margin-top: 30rem;
@@ -102,30 +97,24 @@ button {
   color: #999999;
   height: 1.5rem;
   line-height: 1.5rem;
-  vertical-align: middle;
-}
-.ft1 span {
-  display: inline-block;
-}
-.ft1 .line {
-  display: inline-block;
-  width: 8rem;
-  height: 1px;
-  background-color: #999999;
-  margin: 3px 0;
-}
+  vertical-align: middle; }
+  .ft1 span {
+    display: inline-block; }
+  .ft1 .line {
+    display: inline-block;
+    width: 8rem;
+    height: 1px;
+    background-color: #999999;
+    margin: 3px 0; }
 
 .ft2 {
   margin-top: 5rem;
   display: flex;
-  justify-content: center;
-}
-.ft2 img {
-  width: 4rem;
-  height: 4rem;
-}
-.ft2 div {
-  margin: 0 2rem;
-}
+  justify-content: center; }
+  .ft2 img {
+    width: 4rem;
+    height: 4rem; }
+  .ft2 div {
+    margin: 0 2rem; }
 
 /*# sourceMappingURL=task11.css.map */
