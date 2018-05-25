@@ -1,4 +1,4 @@
-html{font-size: 62.5%; background-color: #eff0f4;}
+html{font-size: 62.5%; background-color: white;}
 body{
 	max-width: 780px;
 	min-width: 320px;
@@ -34,9 +34,11 @@ div.middle{
 	top: 0rem;
 	left: 0;
 	right: 0;
-	padding-top: 5.25rem;
+	margin-top: 4.5rem;
+	padding-top:1rem;
 	@extend body;
 	overflow: hidden;
+	background-color: #eff0f4;
 }
 input.phone
 	{
@@ -89,6 +91,7 @@ button
 	height:1.5rem;
 	line-height:1.5rem;
 	vertical-align:middle;
+	background-color: #eff0f4;
 	span{
 		display:inline-block;
 	}
@@ -101,9 +104,10 @@ button
 	}
 }
 .ft2{
-	margin-top:5rem;
+	padding-top:5rem;
 	display:flex;
 	justify-content:center;
+	background-color: #eff0f4;
 	img{
 		width:4rem;
 		height:4rem;

@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  background-color: #eff0f4; }
+  background-color: white; }
 
 body, header, div.middle {
   max-width: 780px;
@@ -41,8 +41,10 @@ div.middle {
   top: 0rem;
   left: 0;
   right: 0;
-  padding-top: 5.25rem;
-  overflow: hidden; }
+  margin-top: 4.5rem;
+  padding-top: 1rem;
+  overflow: hidden;
+  background-color: #eff0f4; }
 
 input.phone {
   background-color: #ffffff;
@@ -97,7 +99,8 @@ button {
   color: #999999;
   height: 1.5rem;
   line-height: 1.5rem;
-  vertical-align: middle; }
+  vertical-align: middle;
+  background-color: #eff0f4; }
   .ft1 span {
     display: inline-block; }
   .ft1 .line {
@@ -108,9 +111,10 @@ button {
     margin: 3px 0; }
 
 .ft2 {
-  margin-top: 5rem;
+  padding-top: 5rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #eff0f4; }
   .ft2 img {
     width: 4rem;
     height: 4rem; }
